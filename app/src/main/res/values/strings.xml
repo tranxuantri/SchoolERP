@@ -7,5 +7,8 @@
     <string name="password">Password</string>
     <string name="mobile_number_email">Mobile Number/Email</string>
     <string name="sign_in_to_continue">Sign in to continue</string>
-    <string name="hi_name">Hi %s</string>
+    <string name="hi_name">Hi %1$s</string>
+    <string name="sub_title">ID: %1$s | Title: %2$s</string>
+    <string name="fees_due">Fees Due</string>
+    <string name="_6400">$6400</string>
 </resources>

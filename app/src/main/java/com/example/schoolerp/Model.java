@@ -12,7 +12,7 @@ public class Model {
         this.title = title;
     }
 
-    public List<Model> getListModel() {
+    public static List<Model> getListModel() {
         List<Model> list =  new ArrayList<>();
         list.add(new Model(R.drawable.ic_quiz, "Play Quiz"));
         list.add(new Model(R.drawable.ic_assignment, "Assignment"));

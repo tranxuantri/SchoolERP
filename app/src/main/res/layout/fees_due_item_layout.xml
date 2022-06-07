@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="19dp"
+    android:paddingStart="19dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="19dp"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/background_item_large">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/img_dsc"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_fees_due" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/_6400"
+        android:textColor="@color/text_color_202020"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/fees_due"
+        android:textColor="@color/text_color_gray"
+        android:textSize="16sp" />
+</LinearLayout>
